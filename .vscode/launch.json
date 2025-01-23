@@ -2,14 +2,13 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch App",
+            "name": "Spring Boot-Application<teamloc-server>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
-            "stopOnEntry": false,
-            "mainClass": "com.mycompany.app.App",
+            "mainClass": "com.ddaysoft.teamloc.Application",
+            "projectName": "teamloc-server",
             "args": "",
-            "projectName": "my-app"
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
